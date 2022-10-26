@@ -38,25 +38,28 @@
 			// 
 			this.lblInsert.AutoSize = true;
 			this.lblInsert.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.lblInsert.Location = new System.Drawing.Point(26, 32);
+			this.lblInsert.Location = new System.Drawing.Point(35, 40);
+			this.lblInsert.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblInsert.Name = "lblInsert";
-			this.lblInsert.Size = new System.Drawing.Size(190, 17);
+			this.lblInsert.Size = new System.Drawing.Size(247, 22);
 			this.lblInsert.TabIndex = 0;
-			this.lblInsert.Text = "請輸入一個日期(yyyy/dd/MM):";
+			this.lblInsert.Text = "請輸入一個日期(yyyy/MM/dd):";
 			// 
 			// txtInsertDateTime
 			// 
-			this.txtInsertDateTime.Location = new System.Drawing.Point(29, 62);
+			this.txtInsertDateTime.Location = new System.Drawing.Point(39, 78);
+			this.txtInsertDateTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtInsertDateTime.Name = "txtInsertDateTime";
-			this.txtInsertDateTime.Size = new System.Drawing.Size(187, 22);
+			this.txtInsertDateTime.Size = new System.Drawing.Size(248, 25);
 			this.txtInsertDateTime.TabIndex = 1;
 			// 
 			// btnResult
 			// 
 			this.btnResult.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.btnResult.Location = new System.Drawing.Point(235, 153);
+			this.btnResult.Location = new System.Drawing.Point(313, 191);
+			this.btnResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnResult.Name = "btnResult";
-			this.btnResult.Size = new System.Drawing.Size(75, 23);
+			this.btnResult.Size = new System.Drawing.Size(100, 29);
 			this.btnResult.TabIndex = 2;
 			this.btnResult.Text = "顯示結果";
 			this.btnResult.UseVisualStyleBackColor = true;
@@ -65,21 +68,23 @@
 			// lblResult
 			// 
 			this.lblResult.AutoSize = true;
-			this.lblResult.Location = new System.Drawing.Point(27, 110);
+			this.lblResult.Location = new System.Drawing.Point(36, 138);
+			this.lblResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblResult.Name = "lblResult";
-			this.lblResult.Size = new System.Drawing.Size(46, 12);
+			this.lblResult.Size = new System.Drawing.Size(57, 15);
 			this.lblResult.TabIndex = 3;
 			this.lblResult.Text = "lblResult";
 			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(334, 198);
+			this.ClientSize = new System.Drawing.Size(445, 248);
 			this.Controls.Add(this.lblResult);
 			this.Controls.Add(this.btnResult);
 			this.Controls.Add(this.txtInsertDateTime);
 			this.Controls.Add(this.lblInsert);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "Form1";
